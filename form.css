@@ -1,0 +1,32 @@
+div{
+    border: 2px solid gray ;
+    width: fit-content;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+    background-color:peru;
+    box-shadow:0px 0px 20px whitesmoke;
+}
+#sub:hover{
+   background-color: violet;
+}
+body{
+    background-color:black;
+}
+h1{
+    color: white;
+   text-align: center;
+}
+#sub{
+    width: 175px;
+    padding: 5px;
+}
+#number{
+    padding: 5px;
+    text-align: center; 
+}
+#id{
+    border: 2px solid rgb(90, 84, 77);
+    width: 170px;
+    padding: 5px; 
+}

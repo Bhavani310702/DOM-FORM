@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <h1>CHECK-NUMBER</h1>
+    <div>
+    <form id="form">
+       
+        <input type="text" id="number" placeholder="ENTER A NUMBER"><br><br>
+        <input type="submit" id="sub">
+    </form> 
+        <h2 id="id">check number</h2>
+    </div>
+        <script>
+            let x=document.getElementById("form")
+            let h2=document.getElementById("id")
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                let num =(document.getElementById("number").value);
+                if(!isNaN(num)){
+                    if(num%2==0){
+                        h2.innerHTML="Evennumber"
+                    }
+                   else{
+                        h2.innerHTML="oddnumber"
+                    }
+                }
+                else{
+                    h2.innerHTML="please enter number"
+                }
+            })
+            </script>
+    
+</body>
+</html>
